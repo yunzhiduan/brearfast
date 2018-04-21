@@ -5,7 +5,7 @@ $github_signal = $_SERVER['HTTP_X_HUB_SIGNATURE']; //获取github签名
 
   //获取用户输入的
   $payload = file_get_contents("php://input");
-  $secret = 'wenhaiCOM.';
+  $secret = 'xinghuaCOM';
   //生成带有密钥的hash 值  
   $hash = hash_hmac($hash_type, $payload, $secret);
   if($hash && $hash === $hash_value){
