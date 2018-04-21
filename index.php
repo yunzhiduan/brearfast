@@ -13,6 +13,6 @@ $github_signal = $_SERVER['HTTP_X_HUB_SIGNATURE']; //获取github签名
        echo exec("sh github_auto_pull.sh");
        echo date('Y-m-d H:i:s');
   }else{
-       echo '认证失败';
+       echo '认证失败!';
   }
 
