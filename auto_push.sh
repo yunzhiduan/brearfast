@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /data/www/brearfast/brearfast/
+cd /data/www/breakfast/brearfast
 git checkout my
 git add .
 git commit -a -m 'init'
