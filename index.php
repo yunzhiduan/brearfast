@@ -15,3 +15,4 @@ $github_signal = $_SERVER['HTTP_X_HUB_SIGNATURE']; //获取github签名
   }else{
        echo '认证失败';
   }
+
